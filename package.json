@@ -1,0 +1,23 @@
+{
+  "name": "tpl-2-js",
+  "version": "1.0.1",
+  "description": "A tool which can compile tpl to tpl.js & replace `require('xxx.tpl')` to `require('xxx.tpl.js')`",
+  "main": "index.js",
+  "bin": {
+    "tpl-2-js": "bin/index.js"
+  },
+  "dependencies": {
+    "glob": "*",
+    "q": "*",
+    "handlebars": "*",
+    "mkdirp": "*",
+    "colors": "*",
+    "commander": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qubaoming",
+  "license": "ISC"
+}
