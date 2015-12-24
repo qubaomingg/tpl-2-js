@@ -1,16 +1,16 @@
-## tpl2js
+## tpl-2-js
 
 A tool which can compile tpl to tpl.js & replace `require('xxx.tpl')` to `require('xxx.tpl.js')`
 
 ### Install
 
-    npm install tpl2js -g
+    npm install tpl-2-js -g
 
 ### Usage
 
-    tpl -p <your file dir>
+    tpl-2-js -p <your file dir>
 
-    tpl2js -p dist/
+    tpl-2-js -p dist/
 
 ### Example
 
@@ -29,7 +29,7 @@ A tool which can compile tpl to tpl.js & replace `require('xxx.tpl')` to `requir
     <h1>I am b</h1>
 
 
-` tpl2js -p dist`
+` tpl-2-js -p dist`
 
     // a.js
     define(function(require, exports, module){
