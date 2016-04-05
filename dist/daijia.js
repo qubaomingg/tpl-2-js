@@ -1,6 +1,5 @@
 /**
- * nsky daijia page
- * @author: qubaoming@didichuxing.com
+ * @author: qubaoming@gmail.com
  * @date: 2015/11/27
  */
 
